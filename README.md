@@ -1,6 +1,8 @@
 # Medical-MAE-Survey
 Official repository for the survey: 'Transformer-Masked Autoencoder (MAE) for Robust Medical Image Classification'.
+
 Abstract
+
 Medical image classification underpins screening, diagnosis, and treatment planning, but conventional CNN pipelines remain label-hungry and brittle under noise, occlusion, and domain shift. Transformer-based masked autoencoders (MAEs) offer a compelling alternative by exploiting large unlabeled archives to learn anatomy-aware representations. This survey systematically synthesizes various studies on MAE-based encoders for X-ray, MRI, CT, ultrasound, and histopathology. We propose a modality-aware taxonomy spanning ViT/Swin backbones, masking strategies, and training regimes, and harmonize reported results against strong CNN and contrastive baselines. Across modalities, MAE initialization consistently improves label efficiency, calibration, and cross-scanner transfer, especially when combined with parameter-efficient fine-tuning. We distill practical design heuristics (mask ratios, encoder \& decoder depth, PEFT rank), highlight recurrent pitfalls in evaluation and reporting, and outline future directions in domain-aware masking, scalable 3D pretraining, cross-modal co-masking, and clinically grounded interpretability.
 
 Our contributions include:
